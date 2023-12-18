@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="task-2 survey css.css">
+    <style>
+        body{padding: 2%;}
+        .div{text-align: center;
+            margin: 2%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            -webkit-text-fill-color: aliceblue;
+            
+
+            }
+        .container{
+            border: 3px solid white;
+            margin: 3%;
+            padding: 1%;
+            -webkit-text-fill-color: rgb(255, 255, 255);
+            background-color:rgb(21, 12, 12) ;
+            margin: 3%;
+            border-radius: 10px;
+            border-width: 2px;
+            line-height: 25px;
+            max-width: 600px; margin: 50px auto;box-shadow: 2px 5px 100px rgb(0, 0, 0);
+        }
+        .bgGreen{background-color: blue;}
+        form{
+            margin: 3%;
+            
+            
+        }
+        .form input,
+        .form select{
+            margin-top: 2%;margin-bottom: 2%;
+            background-color: rgb(45, 44, 44);
+            height: 25px;
+            border: 1px solid gray;
+            border-radius: 4px;
+
+            display: inline-block;
+        }        
+        .radio{
+            display: inline-block;
+        }
+        
+
+    </style>
+
+</head>
+<body class="bgGreen">
+     <div class="div"><b> <h1 >Skill++ Survey Form</h1></b> 
+     <i >Thankyou for taking the time to help us improve the platform</i>
+     </div>
+     <div class="container" ><form id="form"><h4>
+       <div class="form"><level for="name" id="level-name" >What is your name? </level><br><input id="name" style="width: 100%"; type="text"  placeholder="Enter your name"></div>
+        <div class="form"><level id="email"> What is your email address?</level>
+        <br><input style="width: 100%;" type="text" id="email"placeholder="Enter your email address"></div>
+        <div class="form"><level id="age">What is your age? <br><input style="width: 100%;"; type="number" id="age" placeholder="Enter your age"  fdprocessedid="240sh"></level></div>
+        <div class="form">
+        <level id="option">Which option best describes your current role? </level><br>
+        <select  style="width: 101%"; name="your role" ;id="option">choose
+            <option value="std">Student</option>
+            <option value="fjob">Full time job</option>
+            <option value="pjob">Part time job</option>
+            <option value="fr">Freelancer</option>
+        </select></div >
+        <div class="radio" style="width:auto;"><p >Would you recommrend BLASTO to a friend? <br>
+        <input style="-webkit-text-fill-color: darkslategray;" type="radio" name="ok" id="dfn" >Definitely
+        <input style="-webkit-text-fill-color: darkslategray;"type="radio" name="ok" id="mb">Maybe
+        <input style="text-emphasis-color: darkslategray;"type="radio" name="ok" id="ns">Not sure
+
+        </p></div>
+        <div ><p >What would you like to see improved? <br>
+        <input type="checkbox" name="ok" id="dfn">Front-end projects <br>
+        <input type="checkbox" name="ok" id="dfn">Back-end projects <br>
+        <input type="checkbox" name="ok" id="dfn">Challenges
+        </p><br>
+        <p>Any comments or suggestions?<br>
+        <input type="text" name="i" id="suggest" placeholder="suggest here..." style="text-align: start; height: 80px;width: 100%;background-color:rgb(45, 44, 44) ;border-radius: 5px;border:1px solid gray;"></p>
+        </h4>
+        <div align="center"><button style="text-align: center; height: 20px;width: 100px;background-color:  #0025c8;border-radius:3px ; border-color: aliceblue">Submit</button></div>
+        </form>
+     </div>
+     
+</body>
+</html>
