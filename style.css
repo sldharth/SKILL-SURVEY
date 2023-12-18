@@ -1,0 +1,17 @@
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 20px; 
+        width: 80%;
+    }
+
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+        width: 95%;
+    }
+
+    button {
+        width: 30%; 
+    }
+}
