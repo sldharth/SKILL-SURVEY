@@ -5,9 +5,8 @@
         width: 80%;
     }
 
-    .form-control input,
-    .form-control select,
-    .form-control textarea {
+    .form input,
+    .form select {
         width: 95%;
     }
 
